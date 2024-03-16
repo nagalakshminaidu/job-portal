@@ -28,7 +28,7 @@ class MyFlask(Flask):
         api.add_resource(
             JobPosting,
             "/api/v1/job_postings",
-            resource_class_kwargs={'collection': self.collection}  # Pass the collection to JobPosting
+            resource_class_kwargs={'collection': self.collection}  # Pass the collection to Job Posting
         )
 
 if __name__ == "__main__":
