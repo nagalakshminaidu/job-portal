@@ -1,9 +1,0 @@
-{
-    "MONGO_CONFIG": {
-        "uri": "mongodb://localhost:27017",
-        "db_name": "job_postings",  
-        "collection_name": "postings"  
-    }
-}
-
-  
