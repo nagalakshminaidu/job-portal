@@ -1,9 +1,13 @@
 {
-    "MONGO_CONFIG": {
-        "uri": "mongodb://localhost:27017",
-        "db_name": "job_postings",  
-        "collection_name": "postings"  
-    }
-}
+    "SIGN_UP_STUDENT":{
+        "mongodb_uri": "mongodb://localhost:27017",
+        "database_name": "signup",
+        "collection_name": "sign"
+    },
+    
+    "DASHBOARD_STUDENT":{
 
+    }
+    
+  }
   
